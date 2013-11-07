@@ -67,6 +67,7 @@ int testC(V3VECTOR& P){
 		if (!(V.at(i).getZ() == 0.0)){
 			flag = false;
 			break;
+			
 		}
 	}
 	return flag ? COPLANARE : NECOPLANARE;

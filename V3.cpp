@@ -7,6 +7,7 @@ V3 V3 :: operator+(const V3&  other){
 	float localZ = z + other.z;
 	return V3(localX, localY, localZ);
 }
+
 V3 V3 :: operator-(const V3&  other){
 	float localX = x - other.x;
 	float localY = y - other.y;
