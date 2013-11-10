@@ -7,7 +7,7 @@ main.cpp
 	echo "Compiling..."
 	g++ \
 	V3.cpp \
-	tema1.cpp \
+	utils.cpp \
 	main.cpp \
-	-lGL -lGLU -lglut -lm -o main
-	touch compile
+	-g -Wall -lGL -lGLU -lglut -lm -o main
+	
